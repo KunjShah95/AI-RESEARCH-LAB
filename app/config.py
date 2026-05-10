@@ -17,8 +17,14 @@ class Settings(BaseSettings):
         description="Encryption key for API keys",
     )
 
+    # LLM Provider API Keys
     openai_api_key: str | None = Field(default=None, alias="OPENAI_API_KEY")
     anthropic_api_key: str | None = Field(default=None, alias="ANTHROPIC_API_KEY")
+    groq_api_key: str | None = Field(default=None, alias="GROQ_API_KEY")
+    openrouter_api_key: str | None = Field(default=None, alias="OPENROUTER_API_KEY")
+    mistral_api_key: str | None = Field(default=None, alias="MISTRAL_API_KEY")
+    google_api_key: str | None = Field(default=None, alias="GOOGLE_API_KEY")
+    nvidia_api_key: str | None = Field(default=None, alias="NVIDIA_API_KEY")
     semantic_scholar_key: str | None = Field(default=None, alias="S2_API_KEY")
 
     app_name: str = "Autonomous Paper Analyzer"

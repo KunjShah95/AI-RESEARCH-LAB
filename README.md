@@ -15,6 +15,23 @@ npm run dev
 - Frontend: <http://localhost:5173>
 - Backend API: <http://localhost:8001>
 
+## Supported AI Providers
+
+This project supports **7 LLM providers** with free and paid options:
+
+### Free/Freemium Tier
+- **Groq** - Fastest inference, free tier available
+- **Google Gemini** - Free tier with 1.5 Flash model
+- **OpenRouter** - 100+ models, some free options
+- **NVIDIA NIM** - Free tier available
+
+### Premium
+- **OpenAI** - GPT-4o (industry standard)
+- **Anthropic** - Claude 3.5 Sonnet (best reasoning)
+- **Mistral** - Most cost-effective
+
+**Setup**: Copy `.env.example` to `.env` and add your API keys. See [PROVIDERS.md](docs/PROVIDERS.md) for detailed setup instructions and cost comparison.
+
 ## Features
 
 ### Core Features

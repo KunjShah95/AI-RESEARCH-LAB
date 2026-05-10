@@ -8,3 +8,7 @@ __pycache__/
 .env
 docs/
 prd.md
+frontend/node_modules/
+node_modules/
+API_SUPPORT_SUMMARY.md  
+API_EXAMPLES.md
