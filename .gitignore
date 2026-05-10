@@ -1,0 +1,10 @@
+.worktrees/
+.pytest_cache/
+.ruff_cache/
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+.env
+docs/
+prd.md
